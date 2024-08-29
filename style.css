@@ -7,14 +7,31 @@ body {
     background-color: #1f2937;
     color: white;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 900;
 }
 
 .header_links {
     list-style-type: none;
     display: flex;
+    justify-content: space-between;
+    gap: 18px;
+}
+
+li {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .hero {
     background-color: #1f2937;
     color: white;
+    display: flex;
+
 }
