@@ -23,6 +23,7 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 18px;
+    color: #E5E7EB;
 }
 
 li {
@@ -32,10 +33,10 @@ li {
 
 .hero {
     background-color: #1f2937;
-    color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 80px;
 
 }
 
@@ -47,6 +48,22 @@ li {
 
 .message {
     font: 18px;
-    color: #f9faf8;
+    color: #E5E7EB;
     margin-bottom: 10px;
+}
+
+.button {
+    color: #E5E7EB;
+    background-color: #3882f6;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid #E5E7EB;
+    transition-duration: 0.4s;
+    padding: 5px;
+
+}
+
+.button:hover {
+    color: #3882f6;
+    background-color: #E5E7EB ;
 }
