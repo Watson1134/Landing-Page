@@ -6,6 +6,12 @@ body {
 .header {
     background-color: #1f2937;
     color: white;
+    display: flex;
+}
+
+.header_links {
+    list-style-type: none;
+    display: flex;
 }
 
 .hero {
