@@ -37,7 +37,7 @@ li {
     justify-content: space-around;
     align-items: center;
     padding: 80px;
-
+   
 }
 
 .herom {
@@ -49,7 +49,8 @@ li {
 .message {
     font: 18px;
     color: #E5E7EB;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .button {
@@ -60,6 +61,7 @@ li {
     border: 2px solid #E5E7EB;
     transition-duration: 0.4s;
     padding: 5px;
+    width: 150px;
 
 }
 
