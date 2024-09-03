@@ -49,11 +49,11 @@ li {
 .message {
     font: 18px;
     color: #E5E7EB;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-bottom: 20px;
 }
 
-.button {
+.button, .button2 {
     color: #E5E7EB;
     background-color: #3882f6;
     font-size: 18px;
@@ -65,7 +65,7 @@ li {
 
 }
 
-.button:hover {
+.button:hover, .button2:hover {
     color: #3882f6;
     background-color: #E5E7EB ;
 }
@@ -138,5 +138,29 @@ li {
     align-self: flex-end;
     font-weight: 900;
 }
+
+.footercontainer {
+    background-color: #3882f6;
+    max-width: 950px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 5px;
     
-    
+}
+
+.button2{
+
+}
+
+.signup {
+    color: #E5E7EB;
+}
+
+.signup p {
+    margin-bottom: 5px;
+    margin-top: 0px;
+    font-weight: 900;
+}
