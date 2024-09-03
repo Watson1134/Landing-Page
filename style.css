@@ -112,10 +112,31 @@ li {
 
 .quotecontainer {
     background-color: #E5E7EB;
-    padding: 50px;
+    padding: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.quote, .author {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    padding: 0;
+    margin: 0;
+}
+
+.quote {
+    width: 850px;
+    line-height: 1.5;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: 900;
 }
     
     
