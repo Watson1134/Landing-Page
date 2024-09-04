@@ -53,7 +53,7 @@ li {
     margin-bottom: 20px;
 }
 
-.button, .button2 {
+.button {
     color: #E5E7EB;
     background-color: #3882f6;
     font-size: 18px;
@@ -142,8 +142,10 @@ li {
 .footercontainer {
     background-color: #3882f6;
     max-width: 950px;
+    padding: 20px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin: 0 auto;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -152,15 +154,26 @@ li {
 }
 
 .button2{
-
+    color: #E5E7EB;
+    background-color: #3882f6;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid #E5E7EB;
+    transition-duration: 0.4s;
+    padding: 5px;
+    width: 150px;
 }
 
 .signup {
     color: #E5E7EB;
+    font: 18px;
+    max-width: 800px;
 }
 
 .signup p {
-    margin-bottom: 5px;
+    margin-bottom: 3px;
     margin-top: 0px;
     font-weight: 900;
+    padding-right: 10px;
+    font-size: 24px;
 }
